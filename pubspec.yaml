@@ -1,0 +1,81 @@
+name: plant_flutter
+description: A place to buy plants from anywhere in the world.
+
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: ">=2.10.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  onesignal_flutter: ^3.4.1
+
+  # Firebase
+  firebase_core:
+  firebase_analytics:
+  firebase_crashlytics:
+  firebase_auth:
+  google_sign_in:
+  the_apple_sign_in:
+  flutter_staggered_grid_view:
+
+  nb_utils:
+  flutter_svg: any
+  url_launcher:
+  flutter_vector_icons:
+  cached_network_image:
+  google_fonts:
+  flutter_staggered_animations:
+  slide_to_act:
+  timeline_tile:
+  local_hero:
+  photo_view:
+
+
+  # Payment
+  razorpay_flutter: any
+  flutter_paystack:
+    git:
+      url: https://github.com/definitelyme/flutter_paystack.git
+      ref: a4a33c3dd0a12f46d655a2e63d11e9f20ba82d01
+
+
+  html: ^0.15.0
+  intl: ^0.17.0
+  share_plus: ^4.1.0
+  package_info_plus: any
+  flutter_html: ^2.2.1
+
+  mobx: ^2.0.7+5
+  flutter_mobx: ^2.0.6+1
+  image_picker: ^0.8.5+3
+  webview_flutter: any
+
+  # ADS
+#  google_mobile_ads: ^2.0.1
+
+  flutter_localizations:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.2.0
+  mobx_codegen: ^2.0.7
+
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - asset/app/
+    - asset/flag/
+    - asset/icon/
+    - asset/
+

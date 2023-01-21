@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "485612985945",
+    "project_id": "plant-app-a391d",
+    "storage_bucket": "plant-app-a391d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485612985945:android:7073991b0df527513c9b48",
+        "android_client_info": {
+          "package_name": "com.mighty.plantapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485612985945-qoqgatq3vpibr5rjhobnp8hqccrnrd6f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mighty.plantapp",
+            "certificate_hash": "5f5cd7769b2fdc85c24b8eb78b1f022c6ad1af6a"
+          }
+        },
+        {
+          "client_id": "485612985945-1ndrv6ouvbbktlvpvjn4r40d9jdam2i3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHLztrCBVGYwnhI9Lc2loGB4vYLzJwKuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485612985945-1ndrv6ouvbbktlvpvjn4r40d9jdam2i3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
